@@ -6,3 +6,5 @@ node_modules/**/*
 
 /perch/core
 /perch/config
+/perch/addons
+/perch/resources
