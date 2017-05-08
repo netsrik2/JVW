@@ -1,0 +1,8 @@
+{
+  "use": ["autoprefixer", "postcss-import", "postcss-custom-properties"],
+  "input": "assets/dev/css/style.css",
+  "output": "assets/dist/css/style.css",
+  "local-plugins": "true"
+  
+}
+

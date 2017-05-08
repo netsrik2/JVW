@@ -1,0 +1,30 @@
+/** BEM **/
+
+/**
+ * The top-level ‘Block’ of a component.
+ */
+.component {}
+
+  /**
+   * An ‘Element’ that is a part of the larger Block.
+   */
+  .component__title {}
+
+/**
+ * A ‘Modifier’ of the Block.
+ */
+.component--large {}
+
+
+/** NAMESPACES **/
+
+/**
+
+o- OBJECT
+c- COMPONENT
+u- UTILITY
+t- THEME
+_  HACK
+is-, has-
+
+/**

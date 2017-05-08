@@ -1,0 +1,17 @@
+/* custom properties */
+
+:root {
+
+	/* colors */
+
+	--mainColor: #666;
+	--backgroundColor: #efefef;
+	--accentColor: #000;
+
+	--headingColor: #000;
+
+	--navLinkColor: #000;
+	--navLinkHoverColor: #666;
+	--linkColor: inherit;
+
+}

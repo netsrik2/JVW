@@ -1,0 +1,25 @@
+{
+  "name": "jozefvanwissem",
+  "version": "0.0.0",
+  "description": "testing localhost workflow for npm tasks",
+  "scripts": {
+    "postcss:watch": "postcss -c postcss.config.json -w",
+    "postcss:build": "postcss -c postcss.config.json",
+    "postcss:minify": "postcss -u cssnano assets/dist/css/style.css -o assets/dist/css/style.min.css",
+    "build": "npm run postcss:build && npm run postcss:minify",
+    "watch": "onchange 'assets/dev/css' -i -- npm run build",
+    "images": "imagemin assets/dev/img/**/* -o assets/dist/img -p jpeg-recompress"
+  },
+  "author": "enid",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "cssnano": "^3.7.1",
+    "imagemin-cli": "^3.0.0",
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "onchange": "^3.2.1",
+    "postcss-cli": "^2.5.2",
+    "postcss-custom-properties": "^5.0.2",
+    "postcss-import": "^8.1.2"
+  }
+}
