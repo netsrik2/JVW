@@ -2,7 +2,7 @@
 
 <?php perch_layout('global/global.head', array(
   'title'=>'Home',
-  'class'=>'home',
+  'class'=>'home news',
 )); ?>
 
 <?php perch_layout('global/global.social_media'); ?>
@@ -10,8 +10,8 @@
 <?php perch_layout('global/global.header'); ?>
 
 <main>
-	<h1 class="invis">News</h1>
-	<!-- perch content: out now headline --><h2>When Shall This Bright Day Begin<br /><a class="outnow" href="https://www.normanrecords.com/records/157977-jozef-van-wissem-when-shall-this-bright-day">Out now</a></h2>
+	<h1 class="u-invis">News</h1>
+	<!-- perch content: out now headline --><h2 class="_news">When Shall This Bright Day Begin<br /><a class="_outnow" href="https://www.normanrecords.com/records/157977-jozef-van-wissem-when-shall-this-bright-day">Out now</a></h2>
 	
 	<!-- perch content: optional image -->
 	<!-- <figure>

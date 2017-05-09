@@ -14,4 +14,15 @@
 	--navLinkHoverColor: #666;
 	--linkColor: inherit;
 
+	/* typography sizing */
+	
+	--baseFontSize: 16px;
+	--baseLineHeight: 1.5;
+	--baseUnit: calc(var(--baseFontSize) * var(--baseLineHeight));
+
+
 }
+
+/* custom selectors */
+
+@custom-selector :--heading h1, h2, h3;

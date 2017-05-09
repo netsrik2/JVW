@@ -9,7 +9,7 @@
 
 <?php perch_layout('global/global.header'); ?>
 <main>
-	<h1 class="invis">Press</h1>
+	<h1 class="u-invis">Press</h1>
 	<figure>
 		<img src="/assets/dist/img/jozef_van_wissem_by_renaud_monfourny_600.jpg" alt="press image of Jozef framed by gothic arch" />
 		<figcaption>Photo by Renaud Monfourny</figcaption>

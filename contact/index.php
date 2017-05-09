@@ -9,8 +9,8 @@
 
 <?php perch_layout('global/global.header'); ?>
 <main>
-	<h1 class="invis">Contact</h1>
-	<p>For all questions please email <a href="mailto:propempticon@gmail.com">propempticon@gmail.com</a>
+	<h1>Get in touch</h1>
+	<p>For all enquiries please email <a href="mailto:propempticon@gmail.com">propempticon@gmail.com</a>
 	
 </main>
 

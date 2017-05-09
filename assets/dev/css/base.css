@@ -46,16 +46,17 @@ body {
 }
 
 
-/* header styles */
+/* masthead styles */
 
-header h1 {
+.c-masthead h1 {
 	font-family: 'Raleway';
 	font-weight: 100;
+	color: var(--mainColor);
 	/* text-align: center; */
 	margin-top: 0;
 }
 
-header a {
+.c-masthead a {
 	color: inherit;
 	text-decoration: none;
 }
@@ -123,11 +124,16 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway';
-	font-weight: 300;
-    color: #666;
+	font-weight: 400;
+    color: var(--accentColor);
     text-rendering: optimizeLegibility;
 	line-height: 1.2;
 }
+h2._news  {
+	color: var(--mainColor);
+	font-weight: 300;
+}
+
 
 p {
 	margin-bottom:; 
@@ -157,7 +163,7 @@ small, .meta {
 a {
 	color: inherit;
 }
-a.outnow {
+a._outnow {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 3em;	

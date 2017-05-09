@@ -1,4 +1,4 @@
-<header class="masthead cf" role="banner">
+<header class="c-masthead cf" role="banner">
   <div class="wrapper">
     <h1><a href="/">Jozef van Wissem</a></h1>
     
