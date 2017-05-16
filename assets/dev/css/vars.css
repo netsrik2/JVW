@@ -14,7 +14,18 @@
 	--navLinkHoverColor: #666;
 	--linkColor: inherit;
 
-	/* typography sizing */
+	/* typography fonts and sizing */
+
+	--bodyFont: "Roboto", "Droid Sans",
+               "Trebuchet MS", Helvetica,
+                Arial, sans-serif;
+	--displayFont: ;
+	--headingFont:"Raleway" "Droid Sans",
+               "Trebuchet MS", Helvetica,
+                Arial, sans-serif;
+	--uiFont: "Raleway" "Droid Sans",
+               "Trebuchet MS", Helvetica,
+                Arial, sans-serif;
 	
 	--baseFontSize: 16px;
 	--baseLineHeight: 1.5;
@@ -25,4 +36,4 @@
 
 /* custom selectors */
 
-@custom-selector :--heading h1, h2, h3;
+@custom-selector :--heading h1, h2, h3, h4, h5, h6
